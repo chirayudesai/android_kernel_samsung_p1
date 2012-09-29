@@ -1,10 +1,10 @@
 ######################################################
 
 #  Latin Feature
-# CONFIG_TARGET_LOCALE_LTN is not set
+CONFIG_TARGET_LOCALE_LTN=y
 # CONFIG_TARGET_LOCALE_LTN_L is not set
 # CONFIG_TARGET_LOCALE_LTN_N is not set
-# CONFIG_TARGET_LOCALE_LTN_E is not set
+CONFIG_TARGET_LOCALE_LTN_E=y
 
 ######################################################
 

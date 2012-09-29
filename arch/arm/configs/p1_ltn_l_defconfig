@@ -1,10 +1,28 @@
 ######################################################
 
 #  Latin Feature
-# CONFIG_TARGET_LOCALE_LTN is not set
-# CONFIG_TARGET_LOCALE_LTN_L is not set
+CONFIG_TARGET_LOCALE_LTN=y
+CONFIG_TARGET_LOCALE_LTN_L=y
 # CONFIG_TARGET_LOCALE_LTN_N is not set
 # CONFIG_TARGET_LOCALE_LTN_E is not set
+
+#ISDB-T
+CONFIG_ISDBT_NMI=y
+
+# For TSI
+CONFIG_VIDEO_TSI=y
+CONFIG_VIDEO_TSI_DEBUG=n
+CONFIG_TSI_LIST_DEBUG=n
+
+# latin_cam:kihyung.nam add for nmi625 sound [
+CONFIG_SND_S3C_I2S2=y
+CONFIG_SND_C110_IIS2=y
+CONFIG_SND_SOC_NMI625=y
+# latin_cam:kihyung.nam add for nmi625 sound ]
+
+# latin_atv [
+CONFIG_VIDEO_NM6XX=y
+# latin_atv ]
 
 ######################################################
 

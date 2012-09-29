@@ -1175,7 +1175,7 @@ static struct i2c_driver l3g4200d_driver = {
 
 static int __init l3g4200d_init(void)
 {	
-#if defined(CONFIG_TARGET_LOCALE_LTN)
+#if defined(CONFIG_TARGET_LOCALE_LTN_L)||defined(CONFIG_TARGET_LOCALE_LTN_N)
 	if( HWREV <= 13)
 	{
 		printk( "%s : gyro sensor only work on rev0.7 and above\n", __func__ );
